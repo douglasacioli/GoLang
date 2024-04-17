@@ -3,9 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	i := 1
 
-	var p *int = nil
+	i := 1 //criando uma variavel inteira
+
+	var p *int = nil //criando um ponteiro que e atribuindo o valor nulo
 
 	p = &i //pegando o endereço de memoria do local onde a variavel i esta
 
